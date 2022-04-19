@@ -1,0 +1,3 @@
+{"marker":"","date":"2022-04-19 23:20:16,295","severity": " INFO","service": "time-logger","trace": "","span": "","parent": "", "pid": "", "thread": "main", "class": "com.ductd.server.Runner", "rest": "hello world", "throwable" : ""}
+{"marker":"","date":"2022-04-19 23:21:15,045","severity": " INFO","service": "time-logger","trace": "","span": "","parent": "", "pid": "", "thread": "main", "class": "com.ductd.server.Runner", "rest": "hello world", "throwable" : ""}
+{"marker":"","date":"2022-04-19 23:21:22,533","severity": " INFO","service": "time-logger","trace": "","span": "","parent": "", "pid": "", "thread": "main", "class": "com.ductd.server.Runner", "rest": "hello world", "throwable" : ""}
