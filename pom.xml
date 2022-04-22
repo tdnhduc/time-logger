@@ -4,12 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>com.ductd.timmer</groupId>
     <artifactId>time-logger</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>http-server</module>
+        <module>common</module>
     </modules>
 
     <properties>
@@ -19,10 +20,17 @@
         <slf4j.version>2.17.1</slf4j.version>
         <junit.version>4.12</junit.version>
         <slf4j.api.version>1.7.25</slf4j.api.version>
+        <common.version>1.0-SNAPSHOT</common.version>
+
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.ductd.timmer</groupId>
+                <artifactId>common</artifactId>
+                <version>${common.version}</version>
+            </dependency>
             <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
